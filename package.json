@@ -1,0 +1,31 @@
+{
+  "name": "foodchain-contracts",
+  "version": "0.0.1",
+  "description": "Foodchain is a co-operative network of food suppliers incentivised by a token called the Bushel. Bushels are awarded to suppliers who bring valuable customers into the network. Specifically, the following dynamics are implemented in a set of smart contracts:",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/cli": "^2.5.3",
+    "@openzeppelin/contracts-ethereum-package": "^2.2.3",
+    "@openzeppelin/upgrades": "^2.5.3",
+    "@truffle/hdwallet-provider": "^1.0.18",
+    "chai": "^4.2.0",
+    "dotenv": "^8.1.0",
+    "truffle": "^5.0.36",
+    "ts-generator": "^0.0.8",
+    "typechain": "^0.3.21"
+  },
+  "devDependencies": {
+    "truffle-typings": "^1.0.8",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "generate": "truffle compile && typechain --target truffle './build/**/*.json'",
+    "test": "truffle test --network development"
+  },
+  "author": "",
+  "license": "ISC"
+}
