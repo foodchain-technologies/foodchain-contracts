@@ -23,8 +23,8 @@ contract Bushel_V1 is ERC20, ERC20Detailed, ERC20Mintable, Ownable {
     }
 
     function reportRevenue(address originator, uint256 marginDenominatedInBushels) public onlyOwner {
-        uint256 toOriginator = marginDenominatedInBushels / 2;
-        uint256 toNetwork = marginDenominatedInBushels / 2;
+        uint256 toOriginator = marginDenominatedInBushels.div(2);
+        uint256 toNetwork = marginDenominatedInBushels.div(2);
         _rewardNetwork(toNetwork, originator);
         _transfer(treasury, originator, toOriginator);
     }
