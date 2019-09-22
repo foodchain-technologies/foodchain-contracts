@@ -1,6 +1,6 @@
 # The Foodchain Smart Contracts
 
-This repository contains the smart contracts for [Foodchain](www.joinfoodchain.com), a crypto cooperative for the worlds food supply. It's early days yet, so what this codebase implements is fairly simple, it's the logic which distributes profits within the network to everyone who holds a stake in the network (via the Bushel token). More details on that specific mechanism are in the [Bushel distribution mechanism](#bushel-distribution-mechanism) section. 
+This repository contains the smart contracts for [Foodchain](http://www.joinfoodchain.com), a crypto cooperative for the worlds food supply. It's early days yet, so what this codebase implements is fairly simple, it's the logic which distributes profits within the network to everyone who holds a stake in the network (via the Bushel token). More details on that specific mechanism are in the [Bushel distribution mechanism](#bushel-distribution-mechanism) section. 
 
 Currently this is a fairly centralized application, network participants trust Foodchain Technologies (who developed this contract and operate the existing network) to honestly report margins to the on chain contract. But this is just the first step to a decentralized organisation that we believe will outperform traditional centrlalized players in the industry. Stay tuned.
 
